@@ -1236,12 +1236,6 @@ body {
     top: 89px;
     right: -398px;
   }
-  .computing__circle::after {
-    width: 67px;
-    height: 67px;
-    right: -78px;
-    bottom: 0;
-  }
   .computing__color::after {
     width: 132px;
     height: 11px;
@@ -1608,12 +1602,6 @@ body {
     max-width: clamp(405px, 42.18vw, 495px);
     padding-left: 0;
   }
-  .computing__circle::after {
-    width: clamp(67px, 6.97vw, 77px);
-    height: clamp(67px, 6.97vw, 77px);
-    left: clamp(300px, 33vw, 420px);
-    bottom: 2px;
-  }
   .computing__color::after {
     width: clamp(125px, 13.02vw, 165px);
     height: clamp(11px, 1.14vw, 16px);
@@ -1876,12 +1864,6 @@ body {
   .computing__title {
     font-size: clamp(5.2rem, 4.33vw, 9rem);
     max-width: clamp(495px, 41.25vw, 854px);
-  }
-  .computing__circle::after {
-    width: clamp(77px, 6.97vw, 134px);
-    height: clamp(77px, 6.97vw, 134px);
-    left: clamp(350px, 31.8vw, 670px);
-    bottom: 0;
   }
   .computing__color::after {
     width: clamp(165px, 13.75vw, 245px);
@@ -2146,11 +2128,6 @@ body {
   .computing__title {
     font-size: 9rem;
     max-width: 854px;
-  }
-  .computing__circle::after {
-    width: 134px;
-    height: 134px;
-    left: 666px;
   }
   .computing__color::after {
     width: 265px;
