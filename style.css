@@ -296,19 +296,7 @@ body {
   position: relative;
 }
 
-.computing__circle::after {
-  content: '';
-  display: inline-block;
-  background-image: url('icons/circle.png');
-  background-repeat: no-repeat;
-  position: absolute;
-  background-size: contain;
-  width: clamp(42px, 13.125vw, 67px);
-  height: clamp(42px, 13.125vw, 67px);
-  left: clamp(233px, 72.8125vw, 315px);
-  bottom: clamp(2px, 0.625vw, 0px);
-  animation: spin 3s linear infinite;
-}
+
 
 .computing__color {
   color: var(--main-green);
